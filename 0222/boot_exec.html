@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부트스트랩 실습 예제</title>
+    <link rel="stylesheet" href="../0221/css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        table tbody tr td:nth-child(2) {
+            color: #0d6efd !important;
+        }
+
+        table thead tr th:nth-child(4), table thead tr th:last-child {
+            color: #0d6efd !important;
+        }
+    </style>
+</head>
+<body>
+    <h3>게시판 만들기</h3>
+    
+    <article>
+        
+        <table class="table table-striped caption-top">
+            <caption class="text-end"><i class="bi bi-card-checklist"></i> Total 13</caption>
+            <thead class="table-secondary">
+                <tr>
+                    <th>번호</th>
+                    <th>제 목</th>
+                    <th>글쓴이</th>
+                    <th>날짜</th>
+                    <th>조회</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>13</td>
+                    <td>새로운 게시물 <span class="badge text-bg-dark">n</span></td>
+                    <td class="font-we">복동</td>
+                    <td>14:56</td>
+                    <td>1125</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>비밀 게시물 <i class="fa-solid fa-lock"></i></td>
+                    <td>최강배럭</td>
+                    <td>14:52</td>
+                    <td>0805</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>뜨거운(?) 게시물 <i class="bi bi-fire"></i></td>
+                    <td>겅듀</td>
+                    <td>12:38</td>
+                    <td>0910</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>파일이 첨부된 게시물<i class="bi bi-file-arrow-down"></i></td>
+                    <td>대길</td>
+                    <td>12:38</td>
+                    <td>1027</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="">리플이 달린 게시물<span class="badge text-bg-info">3</span></td>
+                    <td>악플겅듀</td>
+                    <td>12:38</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-end">
+        <a href="#" title="글쓰기" class="btn btn-info d-inline ">글쓰기</a>
+        </div>
+
+        <nav aria-label="페이지 내비게이션">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a href="#" title="" class="page-link active">1</a></li>
+                <li class="page-item"><a href="#" title="" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" title="" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" title="" class="page-link" aria-label="next"><span aria-hidden="true" >&raquo;</span></a></li>
+            </ul>
+            </nav>
+    </article>
+</body>
+</html>
